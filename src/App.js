@@ -22,7 +22,8 @@ function App() {
     setListaDeTarefas(novasTarefas);
   }
 
-  return (
+  return <>
+    <h1>Lista de Tarefas</h1>
     <div className="container">
       <input
         value={tarefa}
@@ -49,7 +50,7 @@ function App() {
         ))}
       </ul>
     </div>
-  );
+    </>;
 }
 
 export default App;

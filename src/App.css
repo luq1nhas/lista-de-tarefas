@@ -3,7 +3,7 @@ body{
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: linear-gradient(180deg, #00e6e6, #008080);
+  background-color: #5cd5f0;
 }
 
 .container{
